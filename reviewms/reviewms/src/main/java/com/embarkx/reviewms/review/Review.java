@@ -12,6 +12,8 @@ public class Review {
     private String Title;
     private String description;
     private double rating;
+    private Long companyId;
+
 
     public Long getCompanyId() {
         return companyId;
@@ -20,9 +22,6 @@ public class Review {
     public void setCompanyId(Long companyId) {
         this.companyId = companyId;
     }
-
-    private Long companyId;
-
 
 
     public Review() {
